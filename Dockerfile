@@ -10,6 +10,8 @@ COPY app.py .
 #install required libraries
 RUN pip install flask
 
+EXPOSE 5000
+
 #Run the application
 CMD ["python","app.py"]
 
